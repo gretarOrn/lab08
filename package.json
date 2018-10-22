@@ -1,0 +1,19 @@
+{
+  "name": "lab08",
+  "version": "0.0.1",
+  "description": "bara lab",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gretarh17/lab08.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gretarh17/lab08/issues"
+  },
+  "homepage": "https://github.com/gretarh17/lab08#readme"
+}
