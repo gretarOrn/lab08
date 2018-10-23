@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "clean": "rm -rf node_modules",
-    "start": " npm test"
+    "start": " node app"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/gretarh17/lab08#readme",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "express": "^4.16.4",
+    "jest": "^23.6.0",
+    "supertest": "^3.3.0"
   }
 }
