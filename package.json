@@ -4,7 +4,9 @@
   "description": "bara lab",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "clean": "rm -rf node_modules",
+    "start": " npm test"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/gretarh17/lab08/issues"
   },
-  "homepage": "https://github.com/gretarh17/lab08#readme"
+  "homepage": "https://github.com/gretarh17/lab08#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
 }
